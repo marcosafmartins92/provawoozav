@@ -1,11 +1,11 @@
 # Prova
-Pode escolher pra fazer com Angular.io ou React.
-As listagens deverão, de preferência, ser alimentados com um Json Mocado por você, sendo requisitado por httpClient pelo Angular ou fetch pelo React.
+Você pode escolher entre Angular.io e React para desenvolvimento desta prova. 
+As listagens deverão, de preferência, ser alimentados com um Json Mocado por você, sendo requisitado por httpClient com Angular ou fetch com React.
 
 ## Desafio 1 - Desktop:
-- Faça uma listagem com 6 usuários, a mesma deverá ser feita com cards contendo 3 por linha, os usuários deverão ter foto, nome e cargo, o estilo dentro do card poderá como achar melhor.
+- Faça uma listagem com 6 usuários. A mesma deverá ser feita com cards contendo 3 por linha e os usuários deverão ter foto, nome e cargo. O estilo dentro do card poderá como achar melhor.
 
-## Desafio 2:
+## Desafio 2 - Mobile:
 - A mesma listagem do desafio 1, porém os itens deverão ser 1 por linha.
 
 ## Desafio 3:
