@@ -8,8 +8,8 @@ As listagens deverão, de preferência, ser alimentados com um Json Mocado por v
 ## Desafio 2 - Mobile:
 - A mesma listagem do desafio 1, porém os itens deverão ser 1 por linha.
 
-## Desafio 3:
+## Desafio 3 - GitHub Pages:
 - Deverá ser postado no github pages
 
-## Desejável:
+## Desejável - Testes:
 - Testes unitários
