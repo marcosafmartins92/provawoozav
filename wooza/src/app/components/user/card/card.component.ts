@@ -22,7 +22,6 @@ export class CardComponent implements OnInit {
   listUsers(){
     this.userService.getUsers().subscribe(res=>{
       this.userModel = res;
-      console.log(this.userModel);
     },error=>{
       console.log(error);
     });
