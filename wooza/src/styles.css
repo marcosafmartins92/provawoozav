@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; background-color: #ededed }
+.align-center{text-align: center;}
+
+.container{max-width: 930px;min-width: 300px;margin: 0 auto;background-color: rgb(250, 250, 250);border-radius: 5px;border: 1px solid rgba(0,0,0,.03);box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.05);padding: 15px;display: flex;justify-content: center;flex-wrap: wrap;}
+.card{box-shadow: 0px 4px 4px 0px rgba(0,0,0,.43);max-width: 300px;width: 300px;border-radius: 25px;overflow: hidden;margin: 5px;display: flex;align-items: center;flex-direction: column;background: #c4d82d !important;}
+.logo{display: flex;align-items: flex-start;justify-content: flex-start;width: 100%;position: relative;}
+.logo::after{content: '';width: 50%;height: 100%;background: #ededed;   position: absolute;transform: rotate(135deg);border-radius: 15px;}
+.logo img{width: 30%;height: auto;background-repeat: no-repeat;background-size: contain;border: 1px solid #ededed;z-index: 1;opacity: .9;}
+.avatar{width: 100%;text-align: center;padding: 20px;}
+.avatar img{width: 150px;border-radius: 5px;}
+.content{width: 100%;padding: 15px;}
+.content p{text-align: center;margin:5px;color: #383435;font-weight: 500;}
