@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="card" *ngFor="let user of userModel">
+    <div class="logo">
+      <img [src]="user.logo" alt="">
+    </div>
+    <div class="avatar">
+      <img [src]="user.avatar" alt="">
+    </div>
+    <div class="content">
+      <p>{{user.nome}}</p>
+      <p>{{user.cargo}}</p>
+    </div>
+  </div>
+</div>
